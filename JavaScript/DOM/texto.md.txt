@@ -1,0 +1,36 @@
+# Manipulando a DOM
+
+DOM - DOCUMENT OBJECT MODEL
+
+É um padrão de como acessar e modificar os elementos HTML de uma página. 
+
+Funciona como uma árvore, com todos os elementos, que podem possuir elementos filhos (nós), irmãos.
+
+## DOM VS BOM
+
+BOM - browser object model
+
+tudo que está dentro do objeto window, a árvore de dependências que está dentro da janela. 
+
+o DOM é um dos filhos do BOM(window), ele fica dentro de document. 
+
+## Manipulando Elementos
+
+#### Métodos
+
+##### Estrutura HTML
+
+tag 
+
+id - atributo e é único
+
+classe - pode ser usado em mais de um elemento
+
+##### JavaScript
+
+document.getElementsById('titulo');
+
+document.getElementsByTagName('h1');
+
+document.getElementsBYClassName('textos');
+
